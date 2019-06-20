@@ -2,7 +2,7 @@
 
 class DataManager
 {
-private:
+public:
 	int** InputImage; //輸入影像
 	int** OutputImage; //輸出影像
 	double ** FreqReal; // 傅立葉實數部分

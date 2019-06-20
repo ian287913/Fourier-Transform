@@ -1,21 +1,9 @@
-﻿已經開始建置於 2016/6/1 上午 11:54:50。
-     1>節點 2 (Build 目標) 上的專案 "D:\2016ME\P3\Fourier Transform\Fourier Transform\Fourier Transform\Fourier Transform\Fourier Transform.vcxproj"。
-     1>ClCompile:
-         H:\VS2015\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib DataManager.cpp MyForm.cpp
-         DataManager.cpp
-         MyForm.cpp
-     1>d:\2016me\p3\fourier transform\fourier transform\fourier transform\fourier transform\MyForm.h(308): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
-     1>d:\2016me\p3\fourier transform\fourier transform\fourier transform\fourier transform\MyForm.h(326): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
-     1>d:\2016me\p3\fourier transform\fourier transform\fourier transform\fourier transform\MyForm.h(363): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
-         正在產生程式碼...
-       Link:
-         H:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2016ME\P3\Fourier Transform\Fourier Transform\Fourier Transform\Release\FourierTransform.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\FourierTransform.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\2016ME\P3\Fourier Transform\Fourier Transform\Fourier Transform\Release\FourierTransform.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\DataManager.obj
-         Release\FT.obj
-         Release\MyForm.obj
-         "Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
-         Fourier Transform.vcxproj -> D:\2016ME\P3\Fourier Transform\Fourier Transform\Fourier Transform\Release\FourierTransform.exe
-     1>專案 "D:\2016ME\P3\Fourier Transform\Fourier Transform\Fourier Transform\Fourier Transform\Fourier Transform.vcxproj" (Build 目標) 建置完成。
-
-建置成功。
-
-經過時間 00:00:00.83
+﻿  MyForm.cpp
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(322): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(340): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(377): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(479): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(480): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(521): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\github\fourier transform\fourier transform\fourier transform\fourier transform\myform.h(522): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  Fourier Transform.vcxproj -> D:\GitHub\Fourier Transform\Fourier Transform\Fourier Transform\Release\FourierTransform.exe
